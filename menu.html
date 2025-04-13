@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - FOOD4U</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="nav">
+        <img src="assets/img.png" height="70px">
+        <h4><a href="index.html"><img src="assets/icons8-home-24.png" width="20px">&nbsp;Home</a></h4>
+        <h4><a href="menu.html">Menu</a></h4>
+        <h4><a href="cart.html"><img src="assets/icons8-cart-96.png" width="20px">&nbsp;Cart</a></h4>
+        <h4><a href="contact.html">Contact</a></h4>
+        <h4><a href="help.html"><img src="assets/icons8-help-100.png" width="20px">&nbsp;Help</a></h4>
+        <h4><a href="signin.html"><img src="assets/icons8-user-64.png" width="20px">&nbsp;Sign-in</a></h4>
+    </div>
+
+    <main>
+        <h2>Our Menu</h2>
+
+        <div class="gallery">
+            <!-- Food Item 1 -->
+            <div class="food-item">
+                <img src="assets/thali-51996_1280.jpg" alt="Thali">
+                <p>Thali</p>
+                <p class="price">$12.99</p>
+                <button onclick="addToCart('Thali', 12.99)">Add to Cart</button>
+            </div>
+
+            <!-- Food Item 2 -->
+            <div class="food-item">
+                <img src="assets/korean-food-709606_1280.jpg" alt="Korean Food">
+                <p>Korean Food</p>
+                <p class="price">$15.99</p>
+                <button onclick="addToCart('Korean Food', 15.99)">Add to Cart</button>
+            </div>
+
+            <!-- Food Item 3 -->
+            <div class="food-item">
+                <img src="assets/pexels-prabal-9609865.jpg" alt="Paneer Tikka">
+                <p>Paneer Tikka</p>
+                <p class="price">$8.99</p>
+                <button onclick="addToCart('Paneer Tikka', 8.99)">Add to Cart</button>
+            </div>
+
+            <!-- Add more food items as needed -->
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 FOOD4U. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
